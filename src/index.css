@@ -241,7 +241,12 @@ i {
   width: 65px;
   text-align: center;
 }
-
+.url{
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .no-req {
   font-size: 18px;
   height: 100px;

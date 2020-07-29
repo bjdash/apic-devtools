@@ -184,7 +184,7 @@ class App extends React.Component {
                             <div className="req" key={index}>
                                 <button onClick={() => this.removeReq(req._id)} className=""><i className="icon-remove_circle red"></i></button>
                                 <div className={'method ' + req.request.method}>{req.request.method}</div>
-                                <div>{req.request.url}</div>
+                                <div className="url">{req.request.url}</div>
                             </div>
                         ))}
 
